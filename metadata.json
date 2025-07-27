@@ -1,0 +1,5 @@
+{
+  "name": "Milk Ledger",
+  "description": "A simple application to track daily milk purchases. Users can log the quantity of milk, price per liter, and the date of purchase. The app calculates the cost for each entry and provides a running total of all purchases.",
+  "requestFramePermissions": []
+}
