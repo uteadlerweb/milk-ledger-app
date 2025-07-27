@@ -1,4 +1,3 @@
-
 import React, { useMemo } from 'react';
 import { MilkEntry } from './types';
 import { useLocalStorage } from './hooks/useLocalStorage';
@@ -32,7 +31,7 @@ const App: React.FC = () => {
         <div className="min-h-screen bg-sky-blue-50 font-sans">
             <Header />
             <main className="container mx-auto p-4 sm:p-6 lg:p-8">
-                <div className="max-w-4xl mx-auto space-y-8">
+                <div className="max-w-4xl mx-auto space-y-8 pb-32">
                     <EntryForm addEntry={addEntry} />
                     <HistoryList entries={sortedEntries} deleteEntry={deleteEntry} />
                     {entries.length > 0 && <Summary entries={entries} />}
